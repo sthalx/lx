@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.sthakrishna\.com\.np [NC]
+RewriteRule ^(.*)$ https://sthakrishna.com.np/$1 [L,R=301]
+</IfModule>
